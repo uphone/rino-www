@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>锐鸟软件-产品</title>
+    <link rel="stylesheet" href="res/layui/css/layui.css">
+    <link rel="stylesheet" href="res/static/css/index.css">
+</head>
+<body>
+<!-- nav部分 -->
+<div class="nav">
+    <div class="layui-container">
+        <!-- 公司logo -->
+        <div class="nav-logo">
+            <a href="http://www.rino123.com">
+                <img src="res/static/img/logo.png" alt="锐鸟软件">
+            </a>
+        </div>
+        <div class="nav-list">
+            <button>
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="layui-nav" lay-filter="">
+                <li class="layui-nav-item"><a href="index.html">首页</a></li>
+                <li class="layui-nav-item layui-this"><a href="product.html">产品</a></li>
+                <!-- <li class="layui-nav-item"><a href="news.html">动态</a></li> -->
+                <li class="layui-nav-item"><a href="case.html">案例</a></li>
+                <li class="layui-nav-item"><a href="about.html">关于</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- banner部分 -->
+<div class="banner product">
+    <div class="title">
+        <p>产品展示</p>
+        <p class="en">Product Display</p>
+    </div>
+</div>
+<!-- main部分 -->
+<div class="main product">
+    <div class="layui-container">
+        <div class="content layui-row">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md7 layui-col-lg6 content-img"><img src="res/static/img/Product_img1.jpg"></div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md5 layui-col-lg6 right">
+                <p class="label">营销管理系统</p>
+                <p class="detail">
+                    现代化智能营销管理系统,提供可配置审批流、邮件提醒、页面自定义布局、自定义报表、报表数据权限、菜单及功能权限、数据权限、呼叫中心集成、系统消息推送等安全稳定的管理功能
+                </p>
+                <!--<div><a href="javascript:;">查看产品 ></a></div>-->
+            </div>
+        </div>
+        <div class="content layui-row">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md7 layui-col-lg6 content-img"><img src="res/static/img/Product_img2.jpg"></div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md5 layui-col-lg6 right">
+                <p class="label">资产盘点系统</p>
+                <p class="detail">
+                    高并发多线程的标签打印、可配置化的LAB标签模板、支持条形码标签及二维码标签、适配各种工业级标签打印机（如：Zebra）、扩展性高、集成性高
+                </p>
+                <!--<div><a href="javascript:;">查看产品 ></a></div>-->
+            </div>
+        </div>
+        <div class="content layui-row">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md7 layui-col-lg6 content-img"><img src="res/static/img/Product_img3.jpg"></div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md5 layui-col-lg6 right">
+                <p class="label">发票管理系统</p>
+                <p class="detail">
+                    简单的发票信息录入、便捷的领用申请、自动根据首尾号生成票据本、便捷安全的发票作废功能、海量数据的快速筛选及排序、直观的统计报表查询
+                </p>
+                <!--<div><a href="javascript:;">查看产品 ></a></div>-->
+            </div>
+        </div>
+        <div class="content layui-row">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md7 layui-col-lg6 content-img"><img src="res/static/img/Product_img4.jpg"></div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md5 layui-col-lg6 right">
+                <p class="label">票据交易系统</p>
+                <p class="detail">
+                    与中国票据交易系统全直连、简易的出票业务、背书业务、承兑业务；安全的票据全流程业务管理及监控
+                </p>
+                <!--<div><a href="javascript:;">查看产品 ></a></div>-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer部分 -->
+<script src="res/static/js/template.js"></script>
+<script>
+    document.write(__FOOTER);
+</script>
+<script src="res/layui/layui.js"></script>
+<!--[if lt IE 9]>
+<script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+<script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script>
+    layui.config({
+        base: 'res/static/js/'
+    }).use('firm');
+</script>
+
+</body>
+</html>

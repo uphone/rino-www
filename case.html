@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>锐鸟软件-案例</title>
+    <link rel="stylesheet" href="res/layui/css/layui.css">
+    <link rel="stylesheet" href="res/static/css/index.css">
+</head>
+<body>
+<!-- nav部分 -->
+<div class="nav">
+    <div class="layui-container">
+        <!-- 公司logo -->
+        <div class="nav-logo">
+            <a href="http://www.rino123.com">
+                <img src="res/static/img/logo.png" alt="锐鸟软件">
+            </a>
+        </div>
+        <div class="nav-list">
+            <button>
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="layui-nav" lay-filter="">
+                <li class="layui-nav-item"><a href="index.html">首页</a></li>
+                <li class="layui-nav-item"><a href="product.html">产品</a></li>
+                <!-- <li class="layui-nav-item"><a href="news.html">动态</a></li> -->
+                <li class="layui-nav-item layui-this"><a href="case.html">案例</a></li>
+                <li class="layui-nav-item"><a href="about.html">关于</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- banner部分 -->
+<div class="banner case">
+    <div class="title">
+        <p>成功案例</p>
+        <p class="en">Successful Case</p>
+    </div>
+</div>
+<!-- main部分 -->
+<div class="main-case">
+    <div class="layui-container">
+        <div class="layui-row">
+            <div class="layui-inline content">
+                <div class="layui-inline case-img"><img src="res/static/img/case1.jpg"></div>
+                <p class="lable">绿城融资管理系统</p>
+                <p>多公司管理、多公司授权、集中化配置、分公司管理、集中化报表查询、权限管理、合同模板打印</p>
+            </div>
+            <div class="layui-inline content even center">
+                <div class="layui-inline case-img"><img src="res/static/img/case2.jpg"></div>
+                <p class="lable">华宝证券工分管理系统</p>
+                <p>权限管理、用户主题切换、公式管理、工分计算、人员信息导入、计算结果导出、合同数据接口</p>
+            </div>
+            <div class="layui-inline content">
+                <div class="layui-inline case-img"><img src="res/static/img/case3.jpg"></div>
+                <p class="lable">宝翼制罐ERP</p>
+                <p>基于用友ERP二次开发：出库单、入库单、质检单、产销量提醒、结转销售成本、采购发票审核等</p>
+            </div>
+            <div class="layui-inline content even">
+                <div class="layui-inline case-img"><img src="res/static/img/case4.jpg"></div>
+                <p class="lable">钧云营销管理系统</p>
+                <p>线索管理、客户管理、客户公海、商机管理、商机升迁、合同审批、数据权限、报表查询、邮件提醒等</p>
+            </div>
+            <div class="layui-inline content center">
+                <div class="layui-inline case-img"><img src="res/static/img/case5.jpg"></div>
+                <p class="lable">福耀玻璃WMS系统</p>
+                <p>仓库管理、BOM录入、存货管理、用友NCERP接口、产成品入库、零部件领用、调拨单、现存量报表等</p>
+            </div>
+            <div class="layui-inline content even">
+                <div class="layui-inline case-img"><img src="res/static/img/case6.jpg"></div>
+                <p class="lable">青岛金王ERP</p>
+                <p>金税文件导入、调拨订单、现存量报表、B2B平台对接、仓库档案管理、物料库存管理、日结存查询等</p>
+            </div>
+        </div>
+        <!-- <div id="casePage"></div> -->
+    </div>
+</div>
+<!-- footer部分 -->
+<script src="res/static/js/template.js"></script>
+<script>
+    document.write(__FOOTER);
+</script>
+<script src="res/layui/layui.js"></script>
+<!--[if lt IE 9]>
+<script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+<script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script>
+    layui.config({
+        base: 'res/static/js/'
+    }).use('firm');
+</script>
+</body>
+</html>
