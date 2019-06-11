@@ -2,10 +2,11 @@ const __FOOTER = '<div class="footer">' +
 '<div class="layui-container">' +
 '<p class="footer-web">' +
 '<a href="javascript:;">友情链接</a>' +
-'<a href="http://www.chinagreentown.com/" target="_blank">绿城集团</a>' +
-'<a href="https://www.hwabaotrust.com/" target="_blank">华宝信托</a>' +
-'<a href="http://bg.baosteel.com/" target="_blank">宝钢集团</a>' +
-'<a href="http://www.chinakingking.com/" target="_blank">青岛金王</a>' +
+'<a href="http://www.chinagreentown.com" target="_blank">绿城集团</a>' +
+'<a href="https://www.hwabaotrust.com" target="_blank">华宝信托</a>' +
+'<a href="http://bg.baosteel.com" target="_blank">宝钢集团</a>' +
+'<a href="http://www.chinakingking.com" target="_blank">青岛金王</a>' +
+'<a href="http://www.zlsoftware.com" target="_blank">昭隆软件</a>' +
 '</p>' +
 '<div class="layui-row footer-contact">' +
 '<div class="layui-col-sm2 layui-col-lg1"><img src="res/static/img/ewm.png" style="width:86px;height:86px;"></div>' +
