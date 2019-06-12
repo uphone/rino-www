@@ -30,3 +30,30 @@ const __FOOTER = '<div class="footer">' +
 '</div>' +
 '</div>' +
 '</div>';
+
+const __HEADER = (idx) => {
+    let ret =
+'<div class="nav">'+
+'<div class="layui-container">'+
+'<div class="nav-logo">'+
+'<a href="http://www.rino123.com">'+
+'<img src="res/static/img/logo.png" alt="锐鸟软件">'+
+'</a>'+
+'</div>'+
+'<div class="nav-list">'+
+'<button>'+
+'<span></span><span></span><span></span>'+
+'</button>'+
+'<ul class="layui-nav" lay-filter="">'+
+'<li class="layui-nav-item'+(idx==1?' layui-this':'')+'"><a href="index.html">首页</a></li>'+
+'<li class="layui-nav-item'+(idx==2?' layui-this':'')+'"><a href="product.html">产品</a></li>'+
+'<li class="layui-nav-item'+(idx==3?' layui-this':'')+'"><a href="impIndex.html">智能管理平台</a></li>'+
+'<li class="layui-nav-item'+(idx==4?' layui-this':'')+'"><a href="case.html">案例</a></li>'+
+'<li class="layui-nav-item'+(idx==5?' layui-this':'')+'"><a href="about.html">关于</a></li>'+
+'</ul>'+
+'</div>'+
+'</div>'+
+'</div>';
+    return ret;
+}
+
