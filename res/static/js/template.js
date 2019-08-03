@@ -14,16 +14,16 @@ const __FOOTER = '<div class="footer">' +
 '<div class="layui-row">' +
 '<div class="layui-col-sm6 layui-col-md8 layui-col-lg8">' +
 '<p class="contact-top">' +
-'<i class="layui-icon layui-icon-cellphone"></i>&nbsp;130-20191238&nbsp;&nbsp;&nbsp;(9:00-18:00)' +
+'<i class="layui-icon layui-icon-cellphone"></i>&nbsp;130-20191238&nbsp;&nbsp;&nbsp;[ whenever ]' +
 '</p>' +
 '<p class="contact-top">' +
-'<i class="layui-icon layui-icon-cellphone"></i>&nbsp;131-62100298&nbsp;&nbsp;&nbsp;(9:00-18:00)' +
+'<i class="layui-icon layui-icon-website"></i>&nbsp;021-60882339&nbsp;&nbsp;&nbsp;[ 9:00-18:00 ]' +
 '</p>' +
-'<p class="contact-bottom"><i class="layui-icon layui-icon-home"></i>&nbsp;sales@rino123.com</span></p>' +
+'<p class="contact-bottom"><i class="layui-icon layui-icon-release"></i>&nbsp;<a style="color:orange;" href="mailto:sales@rino123.com">sales@rino123.com</a></span></p>' +
 '</div>' +
 '<div class="layui-col-sm6 layui-col-md4 layui-col-lg4">' +
-'<p class="contact-top"><span class="right">上海市奉贤区程普路377号</span></p>' +
-'<p class="contact-bottom"><span class="right">Copyright&nbsp;©&nbsp;2011-2019 沪ICP备15011502号-1</span></p>' +
+'<p class="contact-top"><i class="layui-icon layui-icon-location"></i><span class="right"><a href="https://www.amap.com/search?query=上海市奉贤区程普路377号" style="color:orange;" target="_blank">上海市奉贤区程普路377号</a></span></p>' +
+'<p class="contact-bottom"><span class="right">Copyright&nbsp;©&nbsp;2011-2019 <a href="www.beian.miit.gov.cn" style="color:orange;">沪ICP备15011502号-1</a></span></p>' +
 '</div>' +
 '</div>' +
 '</div>' +
