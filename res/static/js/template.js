@@ -23,7 +23,7 @@ const __FOOTER = '<div class="footer">' +
 '</div>' +
 '<div class="layui-col-sm6 layui-col-md4 layui-col-lg4">' +
 '<p class="contact-top"><i class="layui-icon layui-icon-location"></i><span class="right"><a href="https://www.amap.com/search?query=上海市奉贤区程普路377号" style="color:orange;" target="_blank">上海市奉贤区程普路377号</a></span></p>' +
-'<p class="contact-bottom"><span class="right">Copyright&nbsp;©&nbsp;2011-2019 <a href="www.beian.miit.gov.cn" style="color:orange;">沪ICP备15011502号-1</a></span></p>' +
+'<p class="contact-bottom"><span class="right">Copyright&nbsp;©&nbsp;2011-2019 <a href="http://www.beian.miit.gov.cn" style="color:orange;" target="_blank">沪ICP备15011502号-1</a></span></p>' +
 '</div>' +
 '</div>' +
 '</div>' +
