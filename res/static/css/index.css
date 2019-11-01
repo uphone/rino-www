@@ -31,10 +31,10 @@ body{background: #FFF;}
 /*主体—产品*/
 .main-product{padding-top: 90px; padding-bottom: 130px;}
 .main-product p{font-size: 16px; color: #ababab; line-height: 28px;}
-.main-product p.title
-,.main-service p.title{color: #484848; font-size: 24px; text-align: center; line-height: 160px;}
-.main-product p.title span
-,.main-service p.title span{color: #2db5a3;}
+.main-product p.title,.main-service p.title{color: #484848; font-size: 24px; text-align: center; line-height: 160px;}
+.main-product p.title span,.main-service p.title span{color: #2db5a3;}
+.main-product p.title,.cert-list p.title{color: #484848; font-size: 24px; text-align: center; line-height: 160px;}
+.main-product p.title span,.cert-list p.title span{color: #2db5a3;}
 .main-product .content{border: 1px solid #DEDEDE; padding: 30px 36px 0 36px; text-align: center; transition: 0.3s;}
 .main-product .content p.label{font-size: 18px; color: #939393; line-height: 46px; padding-top: 6px;}
 .main-product .content a{font-size: 18px; color: #a1d8cb; line-height: 68px;}
@@ -52,8 +52,15 @@ body{background: #FFF;}
 .main-service .content .content-right p.label{font-size: 16px; color: #4a4a4a;}
 .main-service .content .content-right span{display: block; width: 50px; height: 2px; background: #2cb6a1; margin-bottom: 23px;} 
 .main-service .content .content-right:hover{box-shadow: 2px 2px 2px #EEE; transition: 0.3s;}
-.main-service .service-more{padding-top: 80px; padding-bottom: 80px; text-align: center;}
+.main-service .service-more{
+  /*padding-top: 80px; padding-bottom: 80px;*/
+  text-align: center;
+}
 .main-service .service-more a{padding: 10px 62px; font-size: 23px; line-height: 46px;color: #FFF; background: #7fd3c6; border-radius: 3px;}
+
+/*主体-服务*/
+.cert-list{background: #f8f8f8;}
+.cert-list img{width:350px;height:500px;text-align:center;padding:20px 20px 20px 20px;}
 
 /*底部*/
 .footer{padding-bottom: 70px; background: #5e6664;}
@@ -184,8 +191,7 @@ body{background: #FFF;}
   .nav .nav-list button{display: none;}
   .nav .layui-nav{width: auto; position: absolute; top: 0; padding: 0 5px; border-radius: 0; margin: 0;}
   .nav .layui-nav .layui-nav-item{display: inline-block; margin:0 53px; line-height: 80px;}
-  .main-product p.title
-  ,.main-service p.title{font-size: 36px; line-height: 216px;}
+  .main-product p.title,.main-service p.title,.cert-list p.title{font-size: 36px; line-height: 216px;}
   .main.product .content .content-img{text-align: left;}
   .main-news .content .news-panel strong a{font-size: 20px; line-height: 30px;}
   .main-news .content .news-panel p.read-push{padding-top: 0; position: absolute; bottom: 40px;}
