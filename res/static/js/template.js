@@ -14,7 +14,7 @@ const __FOOTER = '<div class="footer">' +
 '<div class="layui-row">' +
 '<div class="layui-col-sm6 layui-col-md8 layui-col-lg8">' +
 '<p class="contact-top">' +
-'<i class="layui-icon layui-icon-cellphone"></i>&nbsp;130-20191238&nbsp;&nbsp;&nbsp;[ whenever ]' +
+'<i class="layui-icon layui-icon-cellphone"></i>&nbsp;189-64169187&nbsp;&nbsp;&nbsp;[ whenever ]' +
 '</p>' +
 '<p class="contact-top">' +
 '<i class="layui-icon layui-icon-website"></i>&nbsp;021-60882339&nbsp;&nbsp;&nbsp;[ 9:00-18:00 ]' +
